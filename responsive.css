@@ -1,278 +1,278 @@
-@media (max-width:1015px){
-    .restaurant-header{
-        width: 50%;
-    }
-}
-
+/* screen size */
 @media (max-width:800px){
-    .restaurant-header{
-        width: 50%;
-    }
-
-    .salad-chicken-image{
-        height: 450px;
-    }
-
-    .contact-container{
+    .contact-container {
         flex-wrap: wrap;
     }
-    
-    .contact-info-holder{
+
+    .contact-info-holder {
         width: 50%;
     }
 }
 
-
 /* Tablet screen size */
-@media (max-width:768px){
-    a{
+@media (max-width:768px) {
+    a {
         font-size: 1rem;
     }
 
-    .restaurant-container{
+    .restaurant-container {
         width: 89%;
         padding-top: 90px;
         padding-bottom: 50px;
     }
 
-    .restaurant-header{
+    .restaurant-header {
         width: 60%;
     }
 
-    .rest-link{
+    .rest-link {
         font-size: 1.8rem;
     }
 
-    .feature-container{
+    .feature-container {
         width: 95%;
         padding-left: 0px;
         flex-wrap: wrap;
         gap: 40px;
+        /* border: 1px solid yellow; */
     }
 
-   .ginger-container{
-    width: 90%;
-    gap: 2px;
-    padding-bottom: 50px;
-   }
+    .feature-design{
+        /* border: 1px solid blue; */
+        width: 330px;
+    }
 
-   .ginger-info{
-    justify-content: start;
-   }
+    .ginger-container {
+        width: 90%;
+        gap: 2px;
+        padding-bottom: 50px;
+    }
 
-   .ginger-para{
-    font-size: 1.65rem;
-    font-weight: 500;
-    width: 85%;
-   }
+    .ginger-info {
+        justify-content: start;
+    }
 
-   .ginger-link{
-    font-size: 1.65rem;
-   }
+    .ginger-para {
+        font-size: 1.65rem;
+        font-weight: 500;
+        width: 85%;
+    }
 
-   .a-link{
-    font-size: 1.65rem;
-   }
+    .ginger-link {
+        font-size: 1.65rem;
+    }
 
-   .ginger-image{
-    margin-top: 40px;
-    width: 50%;
-    height: 347px;
-   }
+    .a-link {
+        font-size: 1.65rem;
+    }
 
-   .croissant-image{
-    width: 50%;
-    height: 373px;
-   }
+    .ginger-image {
+        margin-top: 40px;
+        width: 50%;
+        height: 347px;
+    }
 
-   .croissant-info{
-    margin-top: 40px;
-   }
+    .croissant-image {
+        width: 50%;
+        height: 373px;
+    }
 
-   .menu-section{
-    padding-bottom: 50px;
-   }
+    .croissant-info {
+        margin-top: 40px;
+    }
 
-   .menu-header{
-    padding-top: 0px;
-   }
+    .menu-section {
+        padding-bottom: 50px;
+    }
 
-   .menu-selection-items{
-    width: 100%;
-    height: fit-content;
-    /* border: 1px solid orangered; */
-  }
+    .menu-header {
+        padding-top: 0px;
+    }
 
-  .menu-selection-image{
-    height: 600px;
-  }
+    .menu-selection-items {
+        width: 100%;
+        height: fit-content;
+    }
 
-  .salad-chicken-image{
-    margin-top: 80px;
-    margin-left: 25px;
-    width: 300px;
-    height: 307px;
-   }
+    .menu-selection-image {
+        height: 600px;
+    }
 
-   .email-container{
-    width: 90%;
-    padding-top: 70px;
-   }
+    .salad-chicken-image {
+        margin-top: 80px;
+        margin-left: 25px;
+        width: 300px;
+        height: 307px;
+    }
 
-   .contact-container{
-    flex-wrap: wrap;
-   }
+    .email-container {
+        width: 90%;
+        padding-top: 70px;
+    }
 
-   .contact-info-holder{
-    width: 50%;
-   }
+    .contact-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info-holder {
+        width: 50%;
+    }
 
 }
 
-   @media (max-width:425px){
-    nav{
+@media (max-width:500px){
+    form {
+        flex-wrap: wrap;
+    }
+    
+    #email {
+        width: 90%;
+        padding: 16px 180px;
+    }
+
+    .email-submit-button {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .email-button {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:425px) {
+    nav {
         width: 90%;
         margin: 0 auto;
     }
 
-    li{
+    li {
         padding: 10px 10px;
     }
 
-    .restaurant-section{
-        /* border: 1px solid red; */
+    .restaurant-section {
         display: flex;
         justify-content: center;
     }
 
-    .restaurant-circle-holder{
+    .restaurant-circle-holder {
         display: flex;
-        /* border: 1px solid black; */
         justify-content: center;
     }
 
-    .restaurant-new{
+    .restaurant-new {
         text-align: center;
     }
 
-    .restaurant-header{
+    .restaurant-header {
         font-size: 4rem;
-        width: 70%; 
+        width: 70%;
         margin: 0 auto;
-        text-align: center; 
-    }
-
-    .restaurant-para{
         text-align: center;
     }
 
-    .restaurant-button-holder{
+    .restaurant-para {
+        text-align: center;
+    }
+
+    .restaurant-button-holder {
         display: flex;
         /* border: 1px solid black; */
         justify-content: center;
     }
 
-    .feature-container{
-       justify-content: center;
-       padding-bottom: 10px;
+    .feature-container {
+        justify-content: center;
     }
 
-    .feature-design{
+    .feature-design {
         height: 232px;
     }
 
-    .ginger-container{
+    .ginger-container {
         flex-wrap: wrap;
-        padding-bottom: 24px;
     }
 
-    .ginger-info, .ginger-image{
+    .ginger-info,
+    .ginger-image {
         width: 100%;
     }
 
-    .ginger-info{
+    .ginger-info {
         align-items: center;
     }
 
-    .ginger-price{
+    .ginger-price {
         font-size: 2.4rem;
     }
 
-    .ginger-header{
+    .ginger-header {
         font-size: 1.8rem;
     }
 
-    .ginger-para{
+    .ginger-para {
         text-align: center;
         width: 85%;
         margin: 23px auto 0 auto;
     }
 
-    .croissant-section{
-        margin-bottom: -110px;
-    }
-
-    .croissant-image{
+    .croissant-image {
         width: 340px;
         height: 352px;
         margin: 0 auto;
     }
 
-    .menu-header{
+    .menu-header {
         font-size: 2.4rem;
     }
 
-    .menu-para{
+    .menu-para {
         line-height: 1.6;
     }
 
-    .menu-selection-image{
+    .menu-selection-image {
         height: 282px;
     }
 
-    .salad-chicken-image{
+    .salad-chicken-image {
         margin: 0 auto 0 auto;
         width: 300px;
         height: 307px;
     }
 
-    .email-header{
+    .email-header {
         font-size: 2.4rem;
         text-align: center;
     }
 
-    .email-para{
+    .email-para {
         width: 90%;
         text-align: center;
         line-height: 1.6;
     }
 
-    form{
+    form {
         flex-wrap: wrap;
     }
 
-    #email{
+    #email {
         width: 90%;
-        padding: 16px 190px;
+        padding: 16px 180px;
     }
 
-    .email-submit-button{
+    .email-submit-button {
         width: 100%;
         margin: 0 auto;
     }
 
-    .email-button{
+    .email-button {
         width: 100%;
         margin: 0 auto;
     }
 
-    .contact-info-holder{
+    .contact-info-holder {
         width: 100%;
     }
 
-   }
-
-
-
-   
-
+}
