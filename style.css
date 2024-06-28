@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* .montserrat {
+  font-family: "Montserrat", sans-serif;
+} */
+
+/* .raleway {
+  font-family: "Raleway", sans-serif;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --primary-color: #99e54d;
+}
+
+html{
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.top{
+  position: fixed;
+  inset: 550px 0px 0px 1270px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #d89908;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  border: 1px solid orangered;
+}
+
+nav{
+  width: 50%;
+  margin: 0px auto;
+  border: 1px solid green;
+}
+
+ul{
+  display: flex;
+}
+
+li{
+  padding: 10px 20px;
+}
+
+a{
+  color: #111111;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover{
+  color: #ffda83;
+}
+
+.restaurant-section{
+  width: 100%;
+  height: fit-content;
+  /* border: 1px solid red; */
+  background-image: url(./images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.restaurant-container{
+  width: 79%;
+  height: fit-content;
+  /* border: 1px solid blue; */
+  margin: 0px auto;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+.restaurant-circle{
+  border: 1px solid #99e54d;
+  padding: 30px 22px;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  background-color: #99e54d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-percent{
+  font-size: 4rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #111111;
+}
+
+.restaurant-business{
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.5;
+  padding-top: 15px;
+  color: #111111;
+}
+
+.restaurant-new{
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.restaurant-header{
+  font-size: 5.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  padding-top: 21px;
+  width: 40%;
+  /* border: 1px solid blue; */
+}
+
+.restaurant-para-holder{
+  padding-top: 20px;
+}
+
+.restaurant-para{
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  /* font-weight: 700; */
+  padding-top: 21p;
+}
+
+.rest-link{
+  text-decoration: none;
+  color: #99e54d;
+}
+
+.restaurant-button-holder{
+  margin-top: 30px;
+}
+
+.restaurant-button{
+  background-color: #f1ae0e;
+  color: #ffffff;
+  border: none;
+  letter-spacing: 1px;
+  padding: 18px 46px 18px 46px;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.restaurant-button:hover{
+  background-color: #fce3a9;
+  color: #111111;
+}
+
+.feature-section{
+  width: 100%;
+  height: fit-content;
+  /* border: 1px solid purple; */
+  background-color: #1a1a1a;
+}
+
+.feature-container{
+  width: 84%;
+  height: fit-content;
+  /* border: 1px solid blue; */
+  margin: 0px auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  gap: 20px;
+  padding-left: 25px;
+}
+
+.feature-design{
+  width: 350px;
+  height: 358px;
+  /* border: 1px solid yellow; */
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-sourcing{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.menu-dev{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/pexels-photo-3850972.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.restaurant{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/italian-spaghetti-with-tomato-sauce-pan.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.feature-header{
+  color: #ffffff;
+  font-family:  "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem
+}
+
+.ginger-section{
+  width: 100%;
+  height: fit-content;
+  /* border: 1px solid red; */
+  background-color: #1a1a1a;
+}
+
+.ginger-container{
+  width: 80%;
+  height: fit-content;
+  border: 1px solid blue;
+  margin: 0px auto;
+  display: flex;
+  padding-top: 85px;
+  padding-bottom: 50px;
+  gap: 15px;
+}
+
+.ginger-info, .ginger-image{
+  width: 50%;
+  height: fit-content;
+}
+
+.ginger-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  height: 78vh;
+}
+
+.ginger-price{
+  font-size: 4.8rem;
+  font-family:  "Montserrat", sans-serif;
+}
+
+.ginger-header{
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 21px;
+}
+
+.ginger-para{
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+  margin-top: 23px;
+  line-height: 1.6;
+  /* border: 1px solid pink; */
+  width: 96.5%;
+  
+}
+
+.ginger-link-holder{
+  margin-top: 23px;
+}
+
+.ginger-link{
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+.a-link{
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #f1ae0e;
+}
+
+.a-link:hover{
+  color: #d89908;
+}
+
+
+.ginger-image{
+  background-image: url(./images/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 50%;
+  height: 513px;
+  border-radius: 50px;
+}
+
+.main-food{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.appetizer{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/pexels-photo-3662126.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.desert{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/pexels-photo-3939685.jpeg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.croissant-image{
+  background-image: url(./images/pexels-photo-3681641.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 50%;
+  height: 513px;
+  border-radius: 50px;
+}
+
+.croissant-info{
+  margin-left: 30px;
+}
+
+.menu-section{
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 70px;
+  /* border: 1px solid red; */
+  background-color: #1a1a1a;
+}
+
+.menu-container{
+  width: 86%;
+  height: fit-content;
+  /* border: 1px solid blue; */
+  margin: 0px auto;
+  padding-left: 20px;
+}
+
+.menu-header{
+  font-size: 4.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.menu-para{
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+  padding-top: 21p;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.menu-selection-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-selection{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-selection-items{
+  width: 45%;
+  height: fit-content;
+  /* border: 1px solid orangered; */
+}
+
+.menu-selection-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 488px;
+  border-radius: 50px;
+}
+
+.menu-select-header{
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.menu-selection-button{
+  margin-top: 20px;
+}
+
+.menu-button{
+  padding: 19px 41px;
+  border-radius: 50px;
+  background-color: #99e54d;
+  color: #111111;
+  border: none;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.menu-button:hover{
+  background-color: #8ff529;
+}
+
+.pizza-image{
+  background-image: url(./images/delicious-pizza-isolated-white.jpg);
+}
+
+.salad-image{
+  background-image: url(./images/high-angle-shot-vegetable-salad-white-bowl.jpg);
+}
+
+.desert-image{
+  background-image: url(./images/pexels-photo-3681641.jpeg);
+}
+
+.drink-image{
+  background-image: url(./images/pexels-photo-3939602.jpeg);
+}
+
+.salad-chicken-image{
+  background-image: url(./images/fresh-salad-with-turkey-eggs-vegetables.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 50%;
+  height: 513px;
+  border-radius: 50px;
+}
+
+.email-section{
+  width: 100%;
+  height: fit-content;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/vegetables-set-left-black-slate.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  /* border: 1px solid yellow; */
+  padding-bottom: 110px;
+}
+
+.email-container{
+  /* border: 1px solid blue; */
+  width: 84%;
+  margin: 0px auto;
+  padding-top: 110px;
+}
+
+.email-header{
+  color: #ffffff;
+  font-family:  "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  margin-top: 85px;
+}
+
+.email-para{
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+form{
+  /* border: 1px solid pink; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+#email{
+  padding: 16px 180px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.email-submit-button{
+  width: 20%;
+  margin-right: 300px;
+  /* border: 1px solid red; */
+}
+
+.email-button{
+  padding: 13px 35px;
+  background-color: #99e54d;
+  border: none;
+  font-size: 1.6rem;
+  font-family: "Raleway", sans-serif;
+  border-radius: 50px;
+}
+
+.email-button:hover{
+  background-color: #8ff529;
+}
+
+.contact-section{
+  height: fit-content;
+  width: 100%;
+  background-color: #1a1a1a;
+  /* border: 1px solid green; */
+}
+
+.contact-container{
+  width: 86%;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+  height: fit-content;
+  padding-bottom: 85px;
+  display: flex;
+}
+
+.contact-info-holder{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  /* border: 1px solid blue; */
+  align-items: center;
+  padding-top: 90px;
+}
+
+.contact-icon-holder{
+  width: 67px;
+  height: 67px;
+  /* border: 1px solid #99e54d; */
+  padding: 13px;
+  background-color: #99e54d;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact-icon{
+  width: 41px;
+  height: 41px;
+}
+
+.contact-header{
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.contact-para{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.contact-link-holder{
+  margin-top: 18px;
+}
+
+.contact-link{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #f1ae0e;
+}
+
+.contact-link:hover{
+  color: #d89908;
+}
+
+
+

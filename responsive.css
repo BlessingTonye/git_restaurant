@@ -1,0 +1,239 @@
+/* Tablet screen size */
+@media (max-width:768px){
+    a{
+        font-size: 1rem;
+    }
+
+    .restaurant-container{
+        width: 89%;
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+
+    .rest-link{
+        font-size: 1.8rem;
+    }
+
+    .feature-container{
+        width: 95%;
+        padding-left: 0px;
+        flex-wrap: wrap;
+    }
+
+   .ginger-container{
+    width: 90%;
+    gap: 2px;
+    padding-bottom: 50px;
+   }
+
+   .ginger-info{
+    justify-content: start;
+   }
+
+   .ginger-para{
+    font-size: 1.65rem;
+    font-weight: 500;
+    width: 85%;
+   }
+
+   .ginger-link{
+    font-size: 1.65rem;
+   }
+
+   .a-link{
+    font-size: 1.65rem;
+   }
+
+   .ginger-image{
+    margin-top: 40px;
+    width: 50%;
+    height: 347px;
+   }
+
+   .croissant-image{
+    width: 50%;
+    height: 373px;
+   }
+
+   .croissant-info{
+    margin-top: 40px;
+   }
+
+   .menu-section{
+    padding-bottom: 50px;
+   }
+
+   .menu-header{
+    padding-top: 8px;
+   }
+
+   .menu-selection-items{
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid orangered; */
+  }
+
+  .menu-selection-image{
+    height: 600px;
+  }
+
+  .salad-chicken-image{
+    margin-top: 80px;
+    margin-left: 25px;
+    width: 300px;
+    height: 307px;
+   }
+
+   .email-container{
+    width: 90%;
+    padding-top: 70px;
+   }
+
+   .contact-container{
+    flex-wrap: wrap;
+   }
+
+   .contact-info-holder{
+    width: 50%;
+   }
+
+}
+
+   /* Tablet screen size */
+   @media (max-width:425px){
+    nav{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    li{
+        padding: 10px 10px;
+    }
+
+    .restaurant-section{
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .restaurant-circle-holder{
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: center;
+    }
+
+    .restaurant-new{
+        text-align: center;
+    }
+
+    .restaurant-header{
+        font-size: 4rem;
+        width: 70%; 
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    .restaurant-para{
+        text-align: center;
+    }
+
+    .restaurant-button-holder{
+        display: flex;
+        /* border: 1px solid black; */
+        justify-content: center;
+    }
+
+    .feature-container{
+       justify-content: center;
+    }
+
+    .feature-design{
+        height: 232px;
+    }
+
+    .ginger-container{
+        flex-wrap: wrap;
+    }
+
+    .ginger-info, .ginger-image{
+        width: 100%;
+    }
+
+    .ginger-info{
+        align-items: center;
+    }
+
+    .ginger-price{
+        font-size: 2.4rem;
+    }
+
+    .ginger-header{
+        font-size: 1.8rem;
+    }
+
+    .ginger-para{
+        text-align: center;
+        width: 85%;
+        margin: 23px auto 0 auto;
+    }
+
+    .croissant-image{
+        width: 340px;
+        height: 352px;
+        margin: 0 auto;
+    }
+
+    .menu-header{
+        font-size: 2.4rem;
+    }
+
+    .menu-para{
+        line-height: 1.6;
+    }
+
+    .menu-selection-image{
+        height: 282px;
+    }
+
+    .salad-chicken-image{
+        margin: 0 auto 0 auto;
+        width: 300px;
+        height: 307px;
+    }
+
+    .email-header{
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .email-para{
+        width: 90%;
+        text-align: center;
+        line-height: 1.6;
+    }
+
+    form{
+        flex-wrap: wrap;
+    }
+
+    #email{
+        width: 100%;
+    }
+
+    .email-submit-button{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .email-button{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contact-info-holder{
+        width: 100%;
+    }
+
+
+   }
+
