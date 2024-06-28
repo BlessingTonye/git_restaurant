@@ -9,6 +9,10 @@
         width: 50%;
     }
 
+    .salad-chicken-image{
+        height: 450px;
+    }
+
     .contact-container{
         flex-wrap: wrap;
     }
@@ -43,6 +47,7 @@
         width: 95%;
         padding-left: 0px;
         flex-wrap: wrap;
+        gap: 40px;
     }
 
    .ginger-container{
@@ -169,6 +174,7 @@
 
     .feature-container{
        justify-content: center;
+       padding-bottom: 10px;
     }
 
     .feature-design{
@@ -177,6 +183,7 @@
 
     .ginger-container{
         flex-wrap: wrap;
+        padding-bottom: 24px;
     }
 
     .ginger-info, .ginger-image{
@@ -199,6 +206,10 @@
         text-align: center;
         width: 85%;
         margin: 23px auto 0 auto;
+    }
+
+    .croissant-section{
+        margin-bottom: -110px;
     }
 
     .croissant-image{
@@ -242,7 +253,7 @@
 
     #email{
         width: 90%;
-        padding: 16px 165px;
+        padding: 16px 190px;
     }
 
     .email-submit-button{
