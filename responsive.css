@@ -1,3 +1,24 @@
+@media (max-width:1015px){
+    .restaurant-header{
+        width: 50%;
+    }
+}
+
+@media (max-width:800px){
+    .restaurant-header{
+        width: 50%;
+    }
+
+    .contact-container{
+        flex-wrap: wrap;
+    }
+    
+    .contact-info-holder{
+        width: 50%;
+    }
+}
+
+
 /* Tablet screen size */
 @media (max-width:768px){
     a{
@@ -240,11 +261,7 @@
 
    }
 
-   @media (max-width:1015px){
-        .restaurant-header{
-            width: 50%;
-        }
-   }
+
 
    
 
