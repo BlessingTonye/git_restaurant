@@ -10,6 +10,10 @@
         padding-bottom: 50px;
     }
 
+    .restaurant-header{
+        width: 60%;
+    }
+
     .rest-link{
         font-size: 1.8rem;
     }
@@ -64,7 +68,7 @@
    }
 
    .menu-header{
-    padding-top: 8px;
+    padding-top: 0px;
    }
 
    .menu-selection-items{
@@ -99,7 +103,6 @@
 
 }
 
-   /* Tablet screen size */
    @media (max-width:425px){
     nav{
         width: 90%;
@@ -217,7 +220,8 @@
     }
 
     #email{
-        width: 100%;
+        width: 90%;
+        padding: 16px 165px;
     }
 
     .email-submit-button{

@@ -41,7 +41,7 @@ header{
   height: 13vh;
   display: flex;
   align-items: center;
-  border: 1px solid orangered;
+  /* border: 1px solid orangered; */
 }
 
 nav{
@@ -241,7 +241,7 @@ a:hover{
 .ginger-container{
   width: 80%;
   height: fit-content;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0px auto;
   display: flex;
   padding-top: 85px;
