@@ -1,5 +1,83 @@
-/* screen size */
-@media (max-width:800px){
+/* large laptop screen */
+@media (max-width:1440px){
+    .ginger-info{
+        height: 65vh;
+      } 
+}
+
+@media (max-width:1219px){
+    .restaurant-header {
+        width: 45%;
+    }  
+}
+
+@media (max-width:1083px){
+    .restaurant-header {
+        width: 50%;
+    } 
+    
+    
+}
+
+
+/* small laptop screen size */
+@media (max-width:1024px) {
+   .ginger-info{
+    height: 55vh;
+  }
+
+   .ginger-image{
+    width: 470px;
+    height: 453px;
+   }
+
+   .menu-container{
+    width: 90%;
+   }
+
+   .contact-container{
+    width: 90%;
+   }
+}
+
+@media (max-width:928px){ 
+    .restaurant-circle{
+        width: 200px;
+        height: 200px;
+    }
+
+    .restaurant-percent{
+        font-size: 3rem;
+    }
+
+    .restaurant-business{
+        font-size: 1.6rem;
+    }
+
+    .restaurant-header{
+        font-size: 4.5rem;  
+    }
+
+    .ginger-price{
+        font-size: 3.2rem;
+    }
+
+    .ginger-header{
+        font-size: 1.6rem;
+    }
+
+    .ginger-para{
+        font-size: 1.6rem;
+    }
+
+    .ginger-link{
+        font-size: 1.6rem;
+    }
+
+    .a-link{
+        font-size: 1.6rem;
+    }
+
     .contact-container {
         flex-wrap: wrap;
     }
@@ -9,11 +87,12 @@
     }
 }
 
+
 /* Tablet screen size */
 @media (max-width:768px) {
-    a {
+    /* a {
         font-size: 1rem;
-    }
+    } */
 
     .restaurant-container {
         width: 89%;
@@ -30,7 +109,7 @@
     }
 
     .feature-container {
-        width: 95%;
+        width: 92%;
         padding-left: 0px;
         flex-wrap: wrap;
         gap: 40px;
@@ -39,13 +118,14 @@
 
     .feature-design{
         /* border: 1px solid blue; */
-        width: 330px;
+        width: 300px;
+        height: 328px;
     }
 
     .ginger-container {
         width: 90%;
         gap: 2px;
-        padding-bottom: 50px;
+        padding-top: 40px;
     }
 
     .ginger-info {
@@ -53,17 +133,17 @@
     }
 
     .ginger-para {
-        font-size: 1.65rem;
+        font-size: 1.25rem;
         font-weight: 500;
         width: 85%;
     }
 
     .ginger-link {
-        font-size: 1.65rem;
+        font-size: 1.25rem;
     }
 
     .a-link {
-        font-size: 1.65rem;
+        font-size: 1.25rem;
     }
 
     .ginger-image {
@@ -120,11 +200,72 @@
 
 }
 
-@media (max-width:500px){
+@media (max-width:766px) {
+    .feature-container {
+        justify-content: center;
+        width: 85%;
+    }
+
+    .feature-design {
+        width: 100%;
+        height: 232px;
+    }
+
+    .ginger-container {
+        flex-wrap: wrap;
+    }
+
+    .ginger-info,
+    .ginger-image {
+        width: 100%;
+    }
+
+    .ginger-info {
+        align-items: center;
+    }
+
+    .ginger-price {
+        font-size: 2.4rem;
+    }
+
+    .ginger-header {
+        font-size: 1.8rem;
+    }
+
+    .ginger-para {
+        text-align: center;
+        width: 85%;
+        margin: 23px auto 0 auto;
+    }
+
+    .croissant-image {
+        width: 340px;
+        height: 352px;
+        margin: 0 auto;
+    }
+
+    .menu-header {
+        font-size: 2.4rem;
+    }
+
+    .menu-para {
+        line-height: 1.6;
+    }
+
+    .menu-selection-image {
+        height: 282px;
+    }
+
+    .salad-chicken-image {
+        margin: 0 auto 0 auto;
+        width: 300px;
+        height: 307px;
+    }
+
     form {
         flex-wrap: wrap;
     }
-    
+
     #email {
         width: 90%;
         padding: 16px 180px;
@@ -139,7 +280,12 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    .contact-info-holder {
+        width: 100%;
+    }
 }
+
 
 @media (max-width:425px) {
     nav {
@@ -267,7 +413,7 @@
     }
 
     .email-button {
-        width: 100%;
+        width: 95%;
         margin: 0 auto;
     }
 
